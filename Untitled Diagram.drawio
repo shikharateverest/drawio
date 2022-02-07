@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T23:22:53.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="GsheUC8W4gRBmAvj3EPb" version="16.5.3" type="github"><diagram id="4tYHTTuE27TbM3DsEGjK" name="Page-1">7Vjfb9owEP5r8ggiCVD6WKDrJm1S12ra+lS5yZFYdezMcUrYXz9f7JBfoI6KlnWaxIPv8/li3/flfMHxF0lxJUkafxEhMMcbhYXjLx3Pc8ee5+BvFG4Mcja1QCRpaKBRDdzSX2BXVmhOQ8gsZiAlBFM0bYOB4BwC1cKIlGLddlsJFraAlETQA24Dwvrodxqq2KCzyajGPwKN4urJ7sjOJKRytkAWk1CsG5B/6fgLKYQyo6RYAMPktfPyYc/sdmMSuPqTBbfyCr6R4rOYf2VsFt0Mbj6NBjbKE2G5PfC1FAFkGeURpjoG5I4oYs+gNlViMiXF4zYn+jTzWCVMD1091GdN0S8pIpTFcMXEOoiJVEMFMqGcKCG12zqmCm5TEqDvWntqzG4IpIJi70ndbf608EAkoORGu1QLvIlZUmnOMrCuCdzqK26QV/kRq5loG7lOqx7YzB6QZa+XZcebMv3UeaBfGD2OcHwFClO8piqIMSJfiVKxsjR04pgIHg0vKykS3KjmhxPkiTwwqGLqLTbDvifmvPGoxZw/PjV1/sHU6WqF+1XIYc6zQEgIsR6IJ0h0GrJ/mb6/jb3xM+w18jr9mWMlnjPKYVBt7kK7uEOvnq1ZMWFWgqudYXBikJXXWRnES4t+FEnvV0BULuG+eu1N2AdZudwrEUVMz6OOsoZGzJPbu3kl6WD9fyAZvGLFPmsrZ3zeV47r7VDO9ro9unSmO6TTSSfw8AJbDG0FjOg7M2hnVIqch4APGVlF2P7GxdTr1MjND5wcTirzzq4sjWVhVxpr07SuQVJ9TpAWNHuDsNfMdBjAWiMjUM9dVn2mGkxMdhBRYRIYUfSpvY1d5NgnXAtavkFVBfH3CKEKkYlcBmBXNbudbqBZJ9C4E8jkoReo1Mr22C+Xz9m7kg8UVDViaeuuMVNHQmPTMF4uQ8Pjc6X7ZDI8kgpdv92Jjt23VeHsXanwiEVsz3XzNupx/T190MHy6RQxr6vDV5bP+X/5nEA+fqdovFg+/mxyUvlUxa6hH8rTXA3TTU9HundUbeUQRiOOsgJecjzHDpMGhF3YiYSGIS6f68aY/io/oYwQUjxQecTJ3JksMVauRGZ1h61u2QcvBMOPoSUXHKOsKGNdqCNX5widbr+xne6Qknd4W6vN+s8kQ2H9l5x/+Rs=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T02:23:09.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="7j4qmQoFauZLz9ayw-8l" version="16.5.3" type="github">
+  <diagram id="4tYHTTuE27TbM3DsEGjK" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-1" value="Processing the data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="125" y="70" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-2" value="&lt;code&gt;Get switch info for interlocking from athena table&lt;/code&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="340" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-3" value="&lt;code&gt;Get switches with unscored movements from athena table&lt;/code&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="340" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-4" value="&lt;code style=&quot;line-height: 1.2&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;ri_feature_switch&lt;br&gt;_toggle_scores&lt;/font&gt;&lt;/code&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="490" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="SrGeUaxLoBQll8gR-RI0-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="490" as="sourcePoint" />
+            <mxPoint x="280" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SrGeUaxLoBQll8gR-RI0-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="490" as="sourcePoint" />
+            <mxPoint x="135" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="SrGeUaxLoBQll8gR-RI0-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="340" as="sourcePoint" />
+            <mxPoint x="180" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="SrGeUaxLoBQll8gR-RI0-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335" y="340" as="sourcePoint" />
+            <mxPoint x="385" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrGeUaxLoBQll8gR-RI0-10" value="input.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="10" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-1" value="&lt;code&gt;create_scores&lt;br&gt;&lt;/code&gt;&lt;code&gt;Compute scores using given parameters&lt;/code&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1020" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-2" value="&lt;code&gt;scores_per_interlocking&lt;br&gt;&lt;/code&gt;&lt;code&gt;Compute scores for given switches&lt;/code&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1220" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-3" value="&lt;code&gt;create_features&lt;br&gt;&lt;/code&gt;compute feature vales from params" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AV2oiAc6VWrj1Y_JL4fa-2" target="AV2oiAc6VWrj1Y_JL4fa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1220" as="sourcePoint" />
+            <mxPoint x="200" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AV2oiAc6VWrj1Y_JL4fa-1" target="AV2oiAc6VWrj1Y_JL4fa-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1020" as="sourcePoint" />
+            <mxPoint x="240" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
