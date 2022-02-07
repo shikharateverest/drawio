@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T02:27:03.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="oKtUMbhYvPMhaZpGOoBE" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T02:39:29.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="ujU1RQXGnQchu3wnXYxv" version="16.5.3" type="github">
   <diagram id="4tYHTTuE27TbM3DsEGjK" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,48 @@
             <mxPoint x="400" y="1760" as="sourcePoint" />
             <mxPoint x="450" y="1710" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-11" value="input params" style="swimlane;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-20" value="&lt;pre class=&quot;code highlight&quot; lang=&quot;python&quot;&gt;&lt;span id=&quot;LC11&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param start_date:&lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC12&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param end_date:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="AV2oiAc6VWrj1Y_JL4fa-11">
+          <mxGeometry x="-830" y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-12" value="Model params" style="swimlane;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2310" width="235" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-18" value="&lt;pre class=&quot;code highlight&quot; lang=&quot;python&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span id=&quot;LC24&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param switch_movements:&lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC25&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param day_ranges: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC26&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param day_scales: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC27&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param std_mean_rolling_window_size: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC28&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param weight_len: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC29&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param half_life: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC30&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param threshold: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC31&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param amplitude: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC32&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param operation: &lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="AV2oiAc6VWrj1Y_JL4fa-12">
+          <mxGeometry x="-5" y="15" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-13" value="Output params" style="swimlane;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2310" width="200" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-19" value="&lt;pre class=&quot;code highlight&quot; lang=&quot;python&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; white-space: nowrap&quot;&gt;&amp;nbsp; &amp;nbsp; :param scores:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span id=&quot;LC14&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; white-space: nowrap&quot;&gt;&amp;nbsp; &amp;nbsp; :param interlocking:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="AV2oiAc6VWrj1Y_JL4fa-13">
+          <mxGeometry x="-10" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-14" value="Algorive Object" style="swimlane;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2150" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="2310" as="sourcePoint" />
+            <mxPoint x="430" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;exitX=0.46;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AV2oiAc6VWrj1Y_JL4fa-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="2290" as="sourcePoint" />
+            <mxPoint x="433" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AV2oiAc6VWrj1Y_JL4fa-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="2280" as="sourcePoint" />
+            <mxPoint x="430" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AV2oiAc6VWrj1Y_JL4fa-21" value="&lt;pre class=&quot;code highlight&quot; lang=&quot;python&quot;&gt;&lt;span id=&quot;LC55&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param switches:&lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC56&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param start_date: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC57&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param end_date: &lt;/span&gt;&lt;br&gt;&lt;span id=&quot;LC58&quot; class=&quot;line&quot; lang=&quot;python&quot;&gt;    :param interlocking:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2340" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
